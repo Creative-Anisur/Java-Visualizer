@@ -5,7 +5,7 @@
 <body>
 <center><h1>Java Visualizer</h1></center>
 
-<iframe style="width: 100%; height:100%;" src="https://cscircles.cemc.uwaterloo.ca/java_visualize/" frameborder="0" scrolling="no"></iframe>
+<iframe style="width: 100%; height:100%;" src="https://cscircles.cemc.uwaterloo.ca/java_visualize/" frameborder="hidden" scrolling="auto"></iframe>
 
 
 </body>
