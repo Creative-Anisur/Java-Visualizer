@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+<title>Java Visualizer</title>
+</head>
+<body>
+<center><h1>Java Visualizer</h1></center>
 
-You can use the [editor on GitHub](https://github.com/anisurrahmanlikhon/Java-Visualizer/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<iframe style="width: 100%; height: 100%;" src="https://cscircles.cemc.uwaterloo.ca/java_visualize/iframe-embed.html?faking_cpp=false#data=%7B%22user_script%22%3A%22public%20class%20PassByValue%20%7B%5Cn%20%20%20%5Cn%20%20%20static%20void%20reset(int%20x)%20%7B%5Cn%20%20%20%20%20%20x%20%3D%200%3B%5Cn%20%20%20%7D%5Cn%20%20%20%5Cn%20%20%20static%20void%20reset(int%5B%5D%20x)%20%7B%5Cn%20%20%20%20%20%20for%20(int%20i%20%3A%20x)%20%5Cn%20%20%20%20%20%20%20%20%20i%20%3D%200%3B%5Cn%20%20%20%7D%5Cn%20%20%20%5Cn%20%20%20static%20void%20reallyReset(int%5B%5D%20x)%20%7B%5Cn%20%20%20%20%20%20for%20(int%20i%3D0%3B%20i%3Cx.length%3B%20i%2B%2B)%5Cn%20%20%20%20%20%20%20%20%20x%5Bi%5D%20%3D%200%3B%5Cn%20%20%20%7D%5Cn%20%20%20%5Cn%20%20%20public%20static%20void%20main(String%5B%5D%20args)%20%7B%5Cn%20%20%20%20%20%20int%20a%20%3D%203%3B%5Cn%20%20%20%20%20%20int%5B%5D%20arr%20%3D%20%7B5%2C%2010%2C%2015%7D%3B%5Cn%20%20%20%20%20%20reset(a)%3B%20%2F%2F%20this%20won't%20work%5Cn%20%20%20%20%20%20System.out.println(a)%3B%5Cn%20%20%20%20%20%20reset(arr)%3B%20%2F%2F%20this%20won't%20work%5Cn%20%20%20%20%20%20System.out.println(java.util.Arrays.toString(arr))%3B%5Cn%20%20%20%20%20%20reallyReset(arr)%3B%20%2F%2F%20this%20works!%5Cn%20%20%20%20%20%20System.out.println(java.util.Arrays.toString(arr))%3B%5Cn%20%20%20%7D%5Cn%20%20%20%5Cn%7D%22%2C%22options%22%3A%7B%22showStringsAsValues%22%3Atrue%2C%22showAllFields%22%3Afalse%7D%2C%22args%22%3A%5B%5D%2C%22stdin%22%3A%22%22%7D&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&curInstr=0&resizeContainer=true&highlightLines=true&rightStdout=true" frameborder="0" scrolling="no"></iframe>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anisurrahmanlikhon/Java-Visualizer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
